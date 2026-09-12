@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>
         Personal Portfolio
     </title>
@@ -11,7 +13,9 @@
 
 <body>
     <header>
-        <nav>
+
+        <nav id="menu">
+            <h1 id="logo">DJ PORTFOLIO</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -21,42 +25,134 @@
             </ul>
         </nav>
 
+
+
         <section id="home">
+
+            <div id="hero">
+                <p id="text">EXPLORE MY PORTFOLIO SHOWCASING MY PROJECTS AS YOU GET TO KNOW ME AND MY SKILLS</p>
+
+                <img id="women"
+                    src="https://www.theladders.com/wp-content/uploads/blue-confidence-contemporary-woman-success-800x450.jpg"
+                    alt="Standing Confident Person">
+            </div>
             <h1>
                 DANIEL JERALD E. CICAT
             </h1>
-            <h2>IT student/CSU student</h2>
+
+            <h2>
+                IT student/CSU student
+            </h2>
+
+            <a id="PJ" href="#project">
+                VIEW PROJECTS
+            </a>
+
         </section>
+
+
+
     </header>
 
-    <main>
-        <section id="about">
-            <h2>
-                About Me:
-            </h2>
-            <p>
-                Hi! I’m Daniel Jerald E. Cicat, a second-year IT student
-                interested in programming and web development. I enjoy
-                learning new technologies, creating projects, and improving
-                my coding skills.
-            </p>
+
+
+
+
+    <main id="main">
+
+
+        <section id="stats">
+
+            <div class="stat">
+                <h2>1</h2>
+                <p>Projects</p>
+            </div>
+
+            <div class="stat">
+                <h2>3</h2>
+                <p>Skills</p>
+            </div>
+
+            <div class="stat">
+                <h2>100+</h2>
+                <p>Cup of Coffee</p>
+            </div>
+
+            <div class="stat">
+                <h2>2</h2>
+                <p>Years Learning</p>
+            </div>
+
         </section>
+
+
+        <section id="about">
+            <div class="me">
+                <img id="person"
+                    src="https://www.vhv.rs/dpng/d/505-5058560_person-placeholder-image-free-hd-png-download.png"
+                    alt="grey person placeholder">
+
+                <div id="para">
+                    <h1>
+                        About Me
+                    </h1>
+                    <h2>
+                        a second-year IT student
+                        interested in programming and web development. I enjoy
+                        learning new technologies, creating projects, and improving
+                        my coding skills.
+                    </h2>
+                    <div id="infos">
+
+                        <div class="info">Name: </div>
+                        <div class="ins">Daniel Jerald E. Cicat</div>
+                        <div class="info">Birthdate: </div>
+                        <div class="ins">June 12, 2006</div>
+                        <div class="info">Place: </div>
+                        <div class="ins">Butuan City</div>
+                        <div class="info">Zip code: </div>
+                        <div class="ins">8600</div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
         <section id="skill">
             <h2>
                 Skills:
             </h2>
-            <ul style="list-style: none;">
-                <li>
+
+
+            <ul id="skills">
+                <li class="kasanayan">
                     Programming
                 </li>
-                <li>
+                <li class="kasanayan">
                     Art
                 </li>
-                <li>
+                <li class="kasanayan">
                     Gaming
                 </li>
             </ul>
+
+
         </section>
+
+
+
+
+
+
         <section id="project">
             <h2>
                 Projects:
@@ -71,6 +167,10 @@
                 </p>
             </article>
         </section>
+
+
+
+
         <section id="contact">
             <h2>
                 Contacts:
@@ -93,6 +193,10 @@
             </address>
 
         </section>
+
+
+
+
 
     </main>
 
